@@ -45,10 +45,6 @@ $discs = [
     ]
 ];
 
-// foreach($discs as $musicDiscs){
-//     echo $musicDiscs['title'];
-// };
-
 header('Content-Type: application/json');
 
     echo json_encode($discs);
