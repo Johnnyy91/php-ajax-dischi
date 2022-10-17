@@ -12,6 +12,7 @@ const app = new Vue ({
         .get('disk.php')
         .then((result)=>{
             console.log(result)
+            this.containerMusic = result.data
         })
     }
 })

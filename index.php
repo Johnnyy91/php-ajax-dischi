@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="app">
-       
+       <div v-for=(element in containerMusic)></div>
         
     </div>
 </body>
